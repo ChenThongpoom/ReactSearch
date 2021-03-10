@@ -1,0 +1,16 @@
+.tripResult-container {
+  display: flex;
+  justify-content: space-between;
+  list-style-type: none;
+  padding-top: 3rem;
+  align-items: center;
+  border-bottom: 2px solid darkgray;
+  padding-bottom: 3rem;
+}
+
+.text-container {
+  padding-left: 2rem;
+  height: 300px;
+  display: flex;
+  flex-flow: wrap;
+}

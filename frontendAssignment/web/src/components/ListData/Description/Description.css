@@ -1,0 +1,28 @@
+.description-container {
+  white-space: nowrap;
+  display: flex;
+  flex-flow: column;
+  align-items: flex-end;
+}
+
+.more-text {
+  color: rgb(119, 186, 241);
+  font-size: small;
+  font-weight: bold;
+  display: flex;
+}
+
+.description {
+  margin-top: 0.5rem;
+  height: auto;
+  color: darkgrey;
+  font-size: small;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  width: auto;
+  white-space: pre-wrap;
+  display: -webkit-box;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+  text-align: left;
+}

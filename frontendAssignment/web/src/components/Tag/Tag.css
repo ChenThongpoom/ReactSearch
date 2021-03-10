@@ -1,0 +1,11 @@
+.tag-container {
+  white-space: nowrap;
+}
+.tag {
+  text-decoration: underline;
+  font-size: 10px;
+  color: darkgray;
+  font-weight: bold;
+  padding-left: 0.5rem;
+  display: flex;
+}

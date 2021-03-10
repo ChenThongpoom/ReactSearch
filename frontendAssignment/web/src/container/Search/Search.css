@@ -1,0 +1,25 @@
+.container {
+  max-width: 660px;
+  margin: 0 auto;
+}
+
+.search-input {
+  border: none;
+  border-bottom: 2px solid darkgray;
+  width: 550px;
+  height: 30px;
+}
+
+.search-input:focus {
+  outline: none;
+}
+
+.search-input::placeholder {
+  color: darkgray;
+  text-align: center;
+  font-size: large;
+}
+
+.search-label i {
+  color: darkgray;
+}

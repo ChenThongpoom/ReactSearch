@@ -1,0 +1,13 @@
+.extra-photo {
+  display: flex;
+  text-align: left;
+  align-items: flex-end;
+}
+
+.extra-photo img {
+  width: 90px;
+  height: 90px;
+  margin-right: 1rem;
+  border: 2px;
+  border-radius: 12px;
+}
